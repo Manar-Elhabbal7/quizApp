@@ -41,41 +41,41 @@ class Result extends StatelessWidget {
         children: [
           Image.asset(
             'lib/congratulations.png',
-            width: 150,
-            height: 150,
+            width: 300,
+            height: 300,
             fit: BoxFit.contain,
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 40),
           const Text(
             'Congratulations',
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 30,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 20),
           const Text(
             'Your score is ',
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 15,
+              fontSize: 20,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
           ),
-          const SizedBox(height: 15),
+          const SizedBox(height: 20),
           Text(
             '${getScore()} / ${questions.length}',
             textAlign: TextAlign.center,
             style: const TextStyle(
-              fontSize: 30,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
               color: Colors.amber,
             ),
           ),
-          const SizedBox(height: 40),
+          const SizedBox(height: 50),
           ElevatedButton.icon(
             icon: const Icon(Icons.restart_alt),
             label: const Text('Restart Quiz', style: TextStyle(fontSize: 18)),
