@@ -48,12 +48,3 @@ class _AnsButtonState extends State<AnsButton> {
     );
   }
 }
-/**style: ElevatedButton.styleFrom(
-          padding: const EdgeInsets.all(10),
-          backgroundColor: Colors.white,
-            foregroundColor: const Color.fromARGB(255, 13, 50, 79),
-            minimumSize: const Size(300, 50),
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20),
-            ),
-      ), */
